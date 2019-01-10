@@ -1,4 +1,10 @@
 import numpy as np
+def MaxMinNormalization(x,Max,Min):
+    if Max-Min==0:
+        return 0
+    x = (x - Min) / (Max - Min)
+    return x
+
 def getset():
     file=open("test.csv",'r')
     file2 = open("ans.csv", 'r')
@@ -15,23 +21,56 @@ def getset():
     file2.close()
 
 
-    pm25=[]
+    x=[]
+
+    ma=[]
+    mi=[]
     for item in total:
-        pm25.append(item[9].strip('\n').split(',')[2:])
-    return np.array(pm25,dtype = float),np.array(label,dtype = float)
+        for i in range(18):
+            if i==10:
+                ma.append(0)
+                mi.append(0)
+                continue
+            item[i]=[float(iii) for iii in item[i].strip('\n').split(',')[2:]]
+
+            if len(ma)<=i:
+                ma.append(np.max(item[i]))
+            else:
+                if np.max(item[i])>ma[i]:
+                    ma[i]=np.max(item[i])
+
+
+            if len(mi)<=i:
+                mi.append(np.min(item[i]))
+            else:
+                if np.min(item[i])<mi[i]:
+                    mi[i]=np.min(item[i])
+
+
+
+    for item in total:
+        it=[]
+        for i in range(18):
+            if i!=10:
+                its=item[i]
+                its=[float(ite) for ite in its]
+                it=it+[MaxMinNormalization(itemits,ma[i],mi[i]) for itemits in  its]
+        x.append(it)
+    return np.array(x,dtype = float),np.array(label,dtype = float)
 # b=np.random.rand()
-w=np.random.rand(9)
+#w=np.random.rand(153)
+w=A=np.zeros(153)
 x,label=getset()
-learn_rate=0.0000001
+print(x.shape)
+learn_rate=0.0001
 y=np.dot(x,w)
+print(y.shape)
 loss=sum(pow(label-y,2)/2)
 
 for i in range(9999999999999):
     v=np.dot((label-y),x)
-    # print(w)
-    # print(v)
+
     w=w+learn_rate*v
-    # print(w)
     y = np.dot(x, w)
     loss = sum(pow(label - y, 2) / 2)
     if i%10000==0:
