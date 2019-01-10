@@ -67,14 +67,16 @@ y=np.dot(x,w)
 print(y.shape)
 loss=sum(pow(label-y,2)/2)
 
-for i in range(9999999999999):
+for i in range(1000000):
     v=np.dot((label-y),x)
 
     w=w+learn_rate*v
     y = np.dot(x, w)
-    loss = sum(pow(label - y, 2) / 2)
+    loss = sum(pow(label - y, 2) / 2)/len(y)
     if i%10000==0:
         print(loss)
+
+
 
 #############求导
 
