@@ -62,20 +62,29 @@ if __name__ == '__main__':
 
     x,label=getset()
     w=np.random.rand(len(x[0]))
+    b=np.random.rand()
 
-    y=np.dot(x,w)
+    y=np.dot(x,w)+b
+
     loss=sum(pow(label-y,2)/2)
 
     for i in range(epoch):
 
-        v=np.dot((label-y),x)
-        w=w+learn_rate*v
+        wv=np.dot((label-y),x)
+        w=w+learn_rate*wv
 
-        y = np.dot(x, w)
+        bv=label-y
+        b=b+learn_rate*bv
+
+        y = np.dot(x, w)+b
 
         loss = sum(pow(label - y, 2) / 2)/len(label)
         if i%10000==0:
             print(loss)
+
+
+
+
 
 
 
