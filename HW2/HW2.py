@@ -32,8 +32,8 @@ def getset():
 if __name__ == '__main__':
 
 
-    learn_rate=0.0001
-    epoch=10000
+    learn_rate=0.00001
+    epoch=100000
     batch_size=100
 
     X,Y=getset()
@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
 
         cross_entropy = -(np.dot(Y, np.log(y)) + np.dot((1 - Y), np.log(1 - y)))/len(Y)
-        if i%10==0:
+        if i%1000==0:
             print(acc,"\t",cross_entropy)
 ##min 3158
 
