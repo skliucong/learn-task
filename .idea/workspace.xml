@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663d34a5-7cd3-47a1-974f-afa534f4e182" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/func21.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/func20.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/func20.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +24,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HW3/myHW3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-230">
+              <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW3/built.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
+            <state relative-caret-position="121">
               <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="37" selection-end-column="49" />
               <folding>
                 <element signature="e#11#20#0" expanded="true" />
@@ -38,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/func21.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="14">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -98,15 +108,15 @@
         <option value="$PROJECT_DIR$/HW2/HW2.py" />
         <option value="$PROJECT_DIR$/HW3/myHW#.py" />
         <option value="$PROJECT_DIR$/HW3/hw3.py" />
-        <option value="$PROJECT_DIR$/HW3/myHW3.py" />
         <option value="$PROJECT_DIR$/leetcode/func20.py" />
         <option value="$PROJECT_DIR$/leetcode/func21.py" />
+        <option value="$PROJECT_DIR$/HW3/myHW3.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-33" />
-    <option name="y" value="93" />
+    <option name="x" value="7" />
+    <option name="y" value="177" />
     <option name="width" value="1346" />
     <option name="height" value="644" />
   </component>
@@ -160,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.func21">
+  <component name="RunManager" selected="Python.myHW3">
     <configuration name="task" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="task" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,9 +295,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.myHW3" />
         <item itemvalue="Python.func21" />
         <item itemvalue="Python.func20" />
-        <item itemvalue="Python.myHW3" />
         <item itemvalue="Python.hw3" />
         <item itemvalue="Python.matplotlib" />
       </list>
@@ -409,19 +419,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547781405992</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update">
+      <created>1547787734139</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1547787734139</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23065476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8921131" visible="true" weight="0.4262295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8921131" visible="true" weight="0.6786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,7 +445,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32851985" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1078869" side_tool="true" visible="true" weight="0.4262295" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1078869" side_tool="true" visible="true" weight="0.6786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -456,11 +472,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <MESSAGE value="update" />
     <MESSAGE value="generation model" />
     <MESSAGE value="first craw" />
     <MESSAGE value="improve acc of HW3" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve acc of HW3" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HW0/westbrook.jpg">
@@ -616,26 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/hw3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/myHW3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/func16.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -680,7 +676,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HW3/built.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
+        <state relative-caret-position="121">
           <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="37" selection-end-column="49" />
           <folding>
             <element signature="e#11#20#0" expanded="true" />
@@ -690,8 +686,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/func21.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="14">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/hw3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/myHW3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
