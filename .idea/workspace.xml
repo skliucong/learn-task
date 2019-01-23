@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663d34a5-7cd3-47a1-974f-afa534f4e182" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/craw/xinwenshouji.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/craw/craw.py" beforeDir="false" afterPath="$PROJECT_DIR$/craw/craw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/craw/dianyingtiantang.py" beforeDir="false" afterPath="$PROJECT_DIR$/craw/dianyingtiantang.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/craw/error_movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/craw/error_movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/craw/xinwenshouji.py" beforeDir="false" afterPath="$PROJECT_DIR$/craw/xinwenshouji.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/craw/xinwenshouji.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="154">
+              <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="56" selection-end-column="32" />
               <folding>
                 <element signature="e#17#39#0" expanded="true" />
               </folding>
@@ -444,19 +440,26 @@
       <option name="project" value="LOCAL" />
       <updated>1548210091995</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update">
+      <created>1548228452651</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1548228452651</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23065476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17931548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985119" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.89136904" visible="true" weight="0.13278688" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985119" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.89136904" visible="true" weight="0.56393445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -808,8 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/craw/xinwenshouji.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="154">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="56" selection-end-column="32" />
           <folding>
             <element signature="e#17#39#0" expanded="true" />
           </folding>

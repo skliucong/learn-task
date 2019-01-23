@@ -12,7 +12,7 @@ def get_news(topicword):
     browser.find_element_by_class_name("tt03").find_element_by_xpath("//table/tbody/tr/td[2]/img").click()
 
     f = open('success_'+topicword+'_movies.csv', 'w')
-    error_f = open('error_topicword_movies.csv', 'w')
+    error_f = open('error_'+topicword+'_movies.csv', 'w')
 
 
     for j in range(100):
@@ -38,7 +38,7 @@ def get_news(topicword):
 
                 js = 'window.open("' + link + '")'
 
-                browser.set_page_load_timeout(30)
+                browser.set_page_load_timeout(10)
 
                 browser.execute_script(js)
                 browser.switch_to_window(browser.window_handles[1])
