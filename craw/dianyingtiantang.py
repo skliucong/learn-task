@@ -5,7 +5,7 @@ import json
 import requests
 from requests import session
 URL = 'http://www.ygdy8.com/html/gndy/jddy/index.html'
-driver = webdriver.Chrome('E://chromedriver')
+driver = webdriver.Chrome("C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe")
 driver.get(URL)
 movies=[]
 error=[]
@@ -35,6 +35,9 @@ while True:
     kllist = kl.find_elements_by_xpath('ul/table')
     if kllist==None:
         break
+
+
+
     for item in kllist:
         print(u"电影数量" + str(len(movies) + 1))
         elem=item.find_elements_by_xpath('tbody/tr')
@@ -95,6 +98,16 @@ while True:
         print (biaoti)
         print (neirong)
         print ('####################################################################')
+
+
+
+
+
+
+
+
+
+
     next_= kl.find_elements_by_xpath('div/a')
     nextpage = next_[-2]
     if nextpage.text==u'下一页':
